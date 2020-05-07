@@ -2,8 +2,8 @@ package testData;
 
 public class DataVariables {
 	public static class LoginPage {
-		public static String username = "chigarow";
-		public static String password = "busetdah231!";
+		public static String username = "";
+		public static String password = "";
 	}
 	public static class AddNewGist {
 		public static String gitdesc = "Git Description 1";

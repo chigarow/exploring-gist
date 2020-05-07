@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 
 import testData.DataVariables;
 import utilities.OpenApp;
@@ -20,8 +22,11 @@ public class deleteGist {
 	public static String browser = "chrome";
 	public static String url = "https://gist.github.com/";
 	public static WebDriver driver = null;
+	
+	
   @Test
-  public void exploratoryGist() {
+  public void exploratoryGist() throws Throwable{
+	  Robot robot = new Robot();
 	  /*Open Browser and Navigate to gist.github.com */
 		driver = OpenApp.OpenBrowser(browser, url);
 		WebDriverWait wait = new WebDriverWait(driver, 5);
@@ -47,9 +52,12 @@ public class deleteGist {
 		/*Click Button Edit */
 		wait.until(ExpectedConditions.visibilityOf(pageObject.GistGithub.YourGist.btn_Delete(driver)));
 		pageObject.GistGithub.YourGist.btn_Delete(driver).click();
+		Thread.sleep(200);
 		
 		/*Confirm Delete Gist*/
-		driver.switchTo().alert().accept();
+//		driver.switchTo().alert().accept();
+		robot.keyPress(KeyEvent.VK_ENTER);
+    	robot.keyRelease(KeyEvent.VK_ENTER);
 		
 		driver.quit();
   }

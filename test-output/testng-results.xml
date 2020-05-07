@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14492" started-at="2020-05-07T23:26:38 WIB" finished-at="2020-05-07T23:26:53 WIB">
+  <suite name="Default suite" duration-ms="18925" started-at="2020-05-07T23:39:10 WIB" finished-at="2020-05-07T23:39:29 WIB">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14492" started-at="2020-05-07T23:26:38 WIB" finished-at="2020-05-07T23:26:53 WIB">
+    <test name="Default test" duration-ms="18925" started-at="2020-05-07T23:39:10 WIB" finished-at="2020-05-07T23:39:29 WIB">
       <class name="mainTesting.deleteGist">
-        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:mainTesting.deleteGist@d83da2e]" name="exploratoryGist" duration-ms="14436" started-at="2020-05-07T23:26:38 WIB" finished-at="2020-05-07T23:26:52 WIB">
+        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:mainTesting.deleteGist@d83da2e]" name="exploratoryGist" duration-ms="18871" started-at="2020-05-07T23:39:10 WIB" finished-at="2020-05-07T23:39:29 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exploratoryGist -->
