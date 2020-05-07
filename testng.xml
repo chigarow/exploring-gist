@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Add New Gist">
     <classes>
-      <class name="mainTesting.addGist"/>
+      <class name="mainTesting.addNewGist"/>
     </classes>
     
   </test> <!-- Test -->
@@ -20,7 +20,7 @@
   </test> <!-- Test -->
   
   
-  <test thread-count="5" name="Edit Gist">
+  <test thread-count="5" name="Delete Gist">
     <classes>
       <class name="mainTesting.deleteGist"/>
     </classes>
