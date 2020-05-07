@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14492" started-at="2020-05-07T23:26:38 WIB" finished-at="2020-05-07T23:26:53 WIB">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14492" started-at="2020-05-07T23:26:38 WIB" finished-at="2020-05-07T23:26:53 WIB">
+      <class name="mainTesting.deleteGist">
+        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:mainTesting.deleteGist@d83da2e]" name="exploratoryGist" duration-ms="14436" started-at="2020-05-07T23:26:38 WIB" finished-at="2020-05-07T23:26:52 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploratoryGist -->
+      </class> <!-- mainTesting.deleteGist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
