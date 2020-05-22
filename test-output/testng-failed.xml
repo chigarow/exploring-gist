@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mainTesting.deleteGist">
+      <class name="gistGithub.AddNewGist">
         <methods>
           <include name="exploratoryGist"/>
         </methods>
-      </class> <!-- mainTesting.deleteGist -->
+      </class> <!-- gistGithub.AddNewGist -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

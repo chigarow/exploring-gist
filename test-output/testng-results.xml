@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18925" started-at="2020-05-07T23:39:10 WIB" finished-at="2020-05-07T23:39:29 WIB">
+  <suite name="Github Test Suite" duration-ms="53884" started-at="2020-05-22T12:50:41 WIB" finished-at="2020-05-22T12:51:35 WIB">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18925" started-at="2020-05-07T23:39:10 WIB" finished-at="2020-05-07T23:39:29 WIB">
-      <class name="mainTesting.deleteGist">
-        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:mainTesting.deleteGist@d83da2e]" name="exploratoryGist" duration-ms="18871" started-at="2020-05-07T23:39:10 WIB" finished-at="2020-05-07T23:39:29 WIB">
+    <test name="Add New Gist" duration-ms="17609" started-at="2020-05-22T12:50:41 WIB" finished-at="2020-05-22T12:50:59 WIB">
+      <class name="gistGithub.AddNewGist">
+        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:gistGithub.AddNewGist@63e2203c]" name="exploratoryGist" duration-ms="17554" started-at="2020-05-22T12:50:41 WIB" finished-at="2020-05-22T12:50:59 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exploratoryGist -->
-      </class> <!-- mainTesting.deleteGist -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- gistGithub.AddNewGist -->
+    </test> <!-- Add New Gist -->
+    <test name="Edit Gist" duration-ms="15468" started-at="2020-05-22T12:50:59 WIB" finished-at="2020-05-22T12:51:15 WIB">
+      <class name="gistGithub.EditGist">
+        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:gistGithub.EditGist@394e1a0f]" name="exploratoryGist" duration-ms="15463" started-at="2020-05-22T12:50:59 WIB" finished-at="2020-05-22T12:51:15 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploratoryGist -->
+      </class> <!-- gistGithub.EditGist -->
+    </test> <!-- Edit Gist -->
+    <test name="View Gist" duration-ms="9597" started-at="2020-05-22T12:51:15 WIB" finished-at="2020-05-22T12:51:24 WIB">
+      <class name="gistGithub.ViewYourGist">
+        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:gistGithub.ViewYourGist@3b088d51]" name="exploratoryGist" duration-ms="9593" started-at="2020-05-22T12:51:15 WIB" finished-at="2020-05-22T12:51:24 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploratoryGist -->
+      </class> <!-- gistGithub.ViewYourGist -->
+    </test> <!-- View Gist -->
+    <test name="Delete Gist" duration-ms="10999" started-at="2020-05-22T12:51:24 WIB" finished-at="2020-05-22T12:51:35 WIB">
+      <class name="gistGithub.DeleteGist">
+        <test-method status="PASS" signature="exploratoryGist()[pri:0, instance:gistGithub.DeleteGist@3712b94]" name="exploratoryGist" duration-ms="10991" started-at="2020-05-22T12:51:24 WIB" finished-at="2020-05-22T12:51:35 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploratoryGist -->
+      </class> <!-- gistGithub.DeleteGist -->
+    </test> <!-- Delete Gist -->
+  </suite> <!-- Github Test Suite -->
 </testng-results>
