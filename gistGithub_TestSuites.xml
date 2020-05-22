@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Github Test Suite">
+<!-- Test Add New Gist -->
+  <test thread-count="5" name="Add New Gist">
+    <classes>
+      <class name="gistGithub.AddNewGist"/>
+    </classes>
+
+<!-- Test Edit Gist -->    
+  </test> 
+  <test thread-count="5" name="Edit Gist">
+    <classes>
+      <class name="gistGithub.EditGist"/>
+    </classes>
+  </test> <!-- Test -->
+
+<!-- View Gist -->  
+  <test thread-count="5" name="View Gist">
+    <classes>
+      <class name="gistGithub.ViewYourGist"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <!-- Delete Gist --> 
+  <test thread-count="5" name="Delete Gist">
+    <classes>
+      <class name="gistGithub.DeleteGist"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
